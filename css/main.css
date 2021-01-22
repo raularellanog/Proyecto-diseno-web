@@ -1,0 +1,110 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-size: 16px;
+}
+.jumbotron-fluid{
+    background-color: #14213D;
+    color: #FFFFFF;
+
+}
+.alert{
+    text-align: center;
+}
+.bread{
+    padding: .5em;
+}
+.bread a{
+    text-decoration: none;
+    color: gray ;
+}
+.carousel-inner img{
+    border-radius: 2%;
+}
+.colR{
+    width: 100%;
+}
+.colR .colP{
+    width: 33%;
+    padding: 0% 1em;
+    
+}
+@media(max-width:600px)
+{   
+    .colR .colP{
+        padding: 0% .5em;
+    }
+    .colR .colP h{
+        font-size: 1em;
+
+    }
+    .colR .colP p{
+        font-size: .8em;
+    }
+    .colR .colP ul li{
+        font-size: .8em;
+        
+    }
+}
+.card{
+    position: relative;
+    width: 25%;
+    margin: 1em 0%;
+    padding: .5em.5em; 
+}
+.card .card-body{
+    height: 100%;
+}
+.card .card-body a{
+    position: absolute;
+    width: 80%;
+    bottom: 0%;
+}
+
+@media(max-width:600px)
+{  
+    .card{
+        width: 50%;
+    }
+    .card .card-body p{
+        font-size: .8em;
+    }
+}
+footer{
+    
+    padding: 1em;
+    border-radius: .3em;
+    background: rgb(252,163,17);
+    background: linear-gradient(90deg, rgba(252,163,17,1) 050%, rgba(0,0,0,.95) 100%);
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+.formulario{
+    padding-bottom: 2em;
+}
+.spacebar{
+    padding-top: 5em;
+}
+table i{
+    color:rgba(252,163,17,1);
+}
+#btn-inf{
+    position:fixed;
+    bottom: 18%;
+    right: .5%;
+}
+#btn-inf .btn-info{
+    width: 3em;
+    height:3em;
+    border-radius: 40%;
+    text-align: center;
+}
+#btn-inf .btn-info i{
+    font-size: 2em;
+}
+#btn-inf .btn-info:hover{
+    background: brown;
+    color: whitesmoke;
+}
