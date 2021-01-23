@@ -5,7 +5,8 @@
   "main": "index.html",
   "scripts": {
     "dev": "lite-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss":"node-sass -o css/ css/"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
     "@fortawesome/fontawesome-free": "^5.15.1",
     "lite-server": "^2.6.1",
     "open-iconic": "^1.1.1"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0"
   }
 }
