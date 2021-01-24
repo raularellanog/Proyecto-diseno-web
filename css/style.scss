@@ -7,6 +7,7 @@ $letrablanca:white;
 }
 @mixin fuente($px){
     font-size: $px;
+    text-align: justify;
 }
 
 *{

@@ -1,7 +1,8 @@
 * {
   padding: 0%;
   margin: 0%;
-  font-size: 16px; }
+  font-size: 16px;
+  text-align: justify; }
 
 .jumbotron-fluid {
   background: linear-gradient(90deg, #fca311 50%, rgba(0, 0, 0, 0.95) 100%);
@@ -55,7 +56,8 @@
   .card {
     width: 50%; }
   .card .card-body p {
-    font-size: 0.8em; } }
+    font-size: 0.8em;
+    text-align: justify; } }
 
 footer {
   padding: 1em;
@@ -88,7 +90,8 @@ table i {
   text-align: center; }
 
 #btn-inf .btn-info i {
-  font-size: 2em; }
+  font-size: 2em;
+  text-align: justify; }
 
 #btn-inf .btn-info:hover {
   background: brown;
