@@ -1,150 +1,98 @@
-/* line 13, css/style.scss */
-/* line 2, css/style.css */
 * {
   padding: 0%;
   margin: 0%;
   font-size: 16px;
   text-align: justify; }
 
-/* line 18, css/style.scss */
-/* line 9, css/style.css */
 .jumbotron-fluid {
   background: linear-gradient(70deg, #fca311 50%, rgba(0, 0, 0, 0.95) 100%);
   color: white; }
 
-/* line 22, css/style.scss */
-/* line 14, css/style.css */
 .alert {
   text-align: center; }
 
-/* line 25, css/style.scss */
-/* line 18, css/style.css */
 .bread {
   padding: .5em; }
 
-/* line 28, css/style.scss */
-/* line 22, css/style.css */
 .bread a {
   text-decoration: none;
   color: gray; }
 
-/* line 32, css/style.scss */
-/* line 27, css/style.css */
 .carousel-inner img {
   border-radius: 2%; }
 
-/* line 35, css/style.scss */
-/* line 31, css/style.css */
 .colR {
   width: 100%; }
 
-/* line 38, css/style.scss */
-/* line 35, css/style.css */
 .colR .colP {
   width: 33%;
   padding: 0% 1em; }
 
 @media (max-width: 600px) {
-  /* line 45, css/style.scss */
-  /* line 41, css/style.css */
   .colR .colP {
     padding: 0% .5em; }
-  /* line 48, css/style.scss */
-  /* line 44, css/style.css */
   .colR .colP h {
     font-size: 1em; }
-  /* line 52, css/style.scss */
-  /* line 47, css/style.css */
   .colR .colP p {
     font-size: .8em; }
-  /* line 55, css/style.scss */
-  /* line 50, css/style.css */
   .colR .colP ul li {
     font-size: .8em; } }
 
-/* line 60, css/style.scss */
-/* line 54, css/style.css */
 .card {
   position: relative;
   width: 25%;
   margin: 1em 0%;
   padding: 0.5em 0.5em; }
 
-/* line 66, css/style.scss */
-/* line 61, css/style.css */
 .card .card-body {
   height: 100%; }
 
-/* line 69, css/style.scss */
-/* line 65, css/style.css */
 .card .card-body a {
   position: absolute;
   width: 80%;
   bottom: 0%; }
 
 @media (max-width: 600px) {
-  /* line 77, css/style.scss */
-  /* line 72, css/style.css */
   .card {
     width: 50%; }
-  /* line 80, css/style.scss */
-  /* line 75, css/style.css */
   .card .card-body p {
     font-size: 0.8em;
     text-align: justify; } }
 
-/* line 84, css/style.scss */
-/* line 80, css/style.css */
 footer {
   padding: 1em;
   border-radius: .3em;
   background: #fca311;
   background: linear-gradient(70deg, #fca311 50%, rgba(0, 0, 0, 0.95) 100%); }
 
-/* line 91, css/style.scss */
-/* line 87, css/style.css */
 footer a {
   text-decoration: none;
   color: white; }
 
-/* line 95, css/style.scss */
-/* line 92, css/style.css */
 .formulario {
   padding-bottom: 2em; }
 
-/* line 98, css/style.scss */
-/* line 96, css/style.css */
 .spacebar {
   padding-top: 5em; }
 
-/* line 101, css/style.scss */
-/* line 100, css/style.css */
 table i {
   color: #fca311; }
 
-/* line 104, css/style.scss */
-/* line 104, css/style.css */
 #btn-inf {
   position: fixed;
   bottom: 18%;
   right: .5%; }
 
-/* line 109, css/style.scss */
-/* line 110, css/style.css */
 #btn-inf .btn-info {
   width: 3em;
   height: 3em;
   border-radius: 40%;
   text-align: center; }
 
-/* line 114, css/style.scss */
-/* line 117, css/style.css */
 #btn-inf .btn-info i {
   font-size: 2em;
   text-align: justify; }
 
-/* line 117, css/style.scss */
-/* line 122, css/style.css */
 #btn-inf .btn-info:hover {
   background: brown;
   color: white; }
