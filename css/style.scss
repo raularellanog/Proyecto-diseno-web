@@ -5,11 +5,14 @@ $letrablanca:white;
     width: $ancho;
     height: $alto;
 }
+@mixin fuente($px){
+    font-size: $px;
+}
 
 *{
     padding: 0%;
     margin: 0%;
-    font-size: 16px;
+    @include fuente(16px);
 }
 .jumbotron-fluid{
     background:$yellow;
@@ -75,7 +78,7 @@ $letrablanca:white;
         width: 50%;
     }
     .card .card-body p{
-        font-size: .8em;
+        @include fuente(.8em);
     }
 }
 footer{
@@ -109,7 +112,7 @@ table i{
     text-align: center;
 }
 #btn-inf .btn-info i{
-    font-size: 2em;
+    @include fuente(2em);
 }
 #btn-inf .btn-info:hover{
     background: brown;
